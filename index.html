@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> VBES Website</title>
-  <link rel="stylesheet" href="./pages/style.css">
+  <title>Relay-like Website</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/ 5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./pages/style.css">
+  ">
+  <link rel="icon" href="./public/favicon.ico" type="image/x-icon">
   <script>
     tailwind.config = {
       theme: {
@@ -21,6 +25,18 @@
 </head>
 <body class="bg-white text-gray-900">
 
+  <!-- Navigation Bar -->
+<header class="bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-primary">VBES</h1>
+    <nav class="space-x-6 text-gray-700">
+      <a href="index.html" class="hover:text-primary">Home</a>
+      <a href="terms.html" class="hover:text-primary font-semibold">profile</a>
+    </nav>
+  </div>
+</header>
+
+
   <!-- Hero Section -->
   <section class="min-h-screen">
     <h1 class="text-5xl font-bold mb-4">Automate your work, effortlessly.</h1>
@@ -34,16 +50,16 @@
       <h2 class="text-3xl font-semibold mb-12">Powerful Features</h2>
       <div class="grid md:grid-cols-3 gap-8 text-left">
         <div>
-          <h3 class="text-xl font-bold mb-2">No  typing needed</h3>
-          <p class="text-gray-600">just speak your email and  subject.</p>
+          <h3 class="text-xl font-bold mb-2">No Code Automation</h3>
+          <p class="text-gray-600">Build powerful workflows with drag-and-drop simplicity.</p>
         </div>
         <div>
-          <h3 class="text-xl font-bold mb-2">Real-time and effortlessly</h3>
+          <h3 class="text-xl font-bold mb-2">Real-time Collaboration</h3>
           <p class="text-gray-600">Work together and keep everyone in the loop effortlessly.</p>
         </div>
         <div>
-          <h3 class="text-xl font-bold mb-2">Attached any file</h3>
-          <p class="text-gray-600">attached any file with perfect location.</p>
+          <h3 class="text-xl font-bold mb-2">Connect Any Tool</h3>
+          <p class="text-gray-600">Relay integrates with hundreds of apps and services.</p>
         </div>
       </div>
     </div>
@@ -51,10 +67,11 @@
 
   <!-- CTA Section -->
   <section class="py-16 px-4 text-center bg-white">
-    <h2 class="text-3xl font-bold mb-4">Try voice based email Sender </h2>
-    <p class="text-gray-600 mb-6">AI generated mail</p>
-    <a href="#" class="bg-primary text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">fast and easy</a>
+    <h2 class="text-3xl font-bold mb-4">Try Relay Free for 14 Days</h2>
+    <p class="text-gray-600 mb-6">No credit card required. Cancel anytime.</p>
+    <a href="#" class="bg-primary text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition">Start Free Trial</a>
   </section>
+  <!-- Testimonials -->
 
   <section class="organizers-section">
     <h1>Organizers</h1>
@@ -102,16 +119,17 @@
 
 
   <!-- Footer -->
-  <footer class="bg-gray-100 py-10 px-4">
-    <div class="max-w-5xl mx-auto text-center text-gray-600">
-      <p>© 2025 Voice Based Email Sender. All rights reserved.</p>
-      <div class="mt-4 flex justify-center space-x-4">
-        <a href="#" class="hover:text-primary">Privacy</a>
-        <a href="#" class="hover:text-primary">Terms</a>
-        <a href="" class="hover:text-primary">Contact</a>
-      </div>
+<footer class="bg-gray-100 py-10 px-4">
+  <div class="max-w-5xl mx-auto text-center text-gray-600">
+    <p>© 2025 Voice Based Email Sender. All rights reserved.</p>
+    <div class="mt-4 flex justify-center space-x-4">
+      <a href="#" class="hover:text-primary">Privacy</a>
+      <a href="./pages/terms.html" class="hover:text-primary">Terms & Conditions</a>
+      <a href="mailto:vbes2025@gmail.com" class="hover:text-primary">Contact</a>
     </div>
-  </footer>
+  </div>
+</footer>
+
 
 </body>
 </html>
