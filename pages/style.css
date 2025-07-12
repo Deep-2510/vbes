@@ -4,6 +4,7 @@ body {
   background: #fff;
   text-align: center;
 }
+
 .min-h-screen {
   min-height: 110vh;
   display: flex;
