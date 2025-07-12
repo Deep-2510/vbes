@@ -34,11 +34,11 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 40px 200px;
 }
 
 .organizer-card {
-  width: 250px;
+  width: 180px;
   text-align: center;
 }
 
@@ -59,7 +59,7 @@ body {
 
 .organizer-card p {
   font-size: 1rem;
-  color: #444;
+  color: #606060;
   margin-bottom: 15px;
 }
 
