@@ -35,7 +35,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px 260px;
+  gap: 40px 100px;
 }
 
 .organizer-card {
